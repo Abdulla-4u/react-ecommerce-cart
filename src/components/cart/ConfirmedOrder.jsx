@@ -17,7 +17,7 @@ const ConfirmedOrder = () => {
     document.body.style.overflow = "hidden";
     return () => document.body.style.overflow = "";
   }, []);
-
+  console.log(cart);
   return (
     <AnimatePresence>
       <motion.div
@@ -88,7 +88,7 @@ const ProductItem = ({ item }) => {
     <div className="flex items-center justify-between w-full border-b border-gray-200 py-3">
       <div className="flex gap-2">
         <img
-          src={image.thumbnail}
+          src={image.desktop}
           alt={name}
           className="w-10 h-10 object-cover rounded-md"
           loading="lazy"

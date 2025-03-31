@@ -36,15 +36,15 @@ img {
   font-style: normal;
 }
 
-/* Style the scrollbar */
 ::-webkit-scrollbar {
   width: 9px;
   height: 10px;
+  background-color: #f4edeb;
 }
 
 /* Style the scrollbar thumb */
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(45deg, #e91e63, #9c27b0); /* Pink to Purple */
+  background: linear-gradient(45deg, #e91e63, #9c27b0); 
   border-radius: 10px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -52,9 +52,9 @@ img {
 
 /* Hover effect for scrollbar thumb */
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(45deg, #9c27b0, #e91e63); /* Reversed gradient */
+  background: linear-gradient(45deg, #9c27b0, #e91e63); 
   -webkit-transform: scale(1.1);
-          transform: scale(1.1); /* Slightly increase size */
+          transform: scale(1.1); 
 }
 
 
@@ -178,7 +178,6 @@ html {
 
 
 /* Loader Style */
-
 svg {
   width: 2.7em;
   -webkit-transform-origin: center;

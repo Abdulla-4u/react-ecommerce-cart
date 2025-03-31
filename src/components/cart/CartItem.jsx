@@ -1,5 +1,4 @@
 import React, { useContext, useState } from "react";
-import remove_Icon from "../../assets/images/icon-remove-item.svg";
 import { AppContext } from "../../context/AppContext";
 import { AnimatePresence, motion } from "framer-motion";
 import { RemoveFromCartIcon } from "../icons/icons";

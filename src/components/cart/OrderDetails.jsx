@@ -1,5 +1,4 @@
 import React, { useCallback, useContext } from "react";
-import tree_Icon from "../../assets/images/icon-carbon-neutral.svg";
 import { AppContext } from "../../context/AppContext";
 import CartItem from "./CartItem";
 import TotalPrice from "./TotalPrice";
@@ -25,7 +24,7 @@ const OrderDetails = () => {
       </div>
 
       <div className="flex items-center justify-center gap-2 bg-rose-50 rounded-xl p-3 my-3 duration-500 transition">
-        <img src={tree_Icon} alt="carbon-neutral" className="w-5 h-5" />
+        <img src="/images/icon-carbon-neutral.svg" alt="carbon-neutral" className="w-5 h-5" />
         <p className="text-sm font-normal">
           This is a <span className="font-bold">carbon-neutral</span> delivery
         </p>

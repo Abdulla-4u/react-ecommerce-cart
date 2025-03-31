@@ -16,7 +16,6 @@ const ProductCard = ({ product, idx }) => {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.3 }}
       transition={{
-        delay: idx * 0.04,
         duration: 0.5,
         ease: [0.25, 0.1, 0.25, 1], 
       }}

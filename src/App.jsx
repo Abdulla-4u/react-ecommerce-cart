@@ -4,13 +4,9 @@ import { AnimatePresence } from "framer-motion";
 import Loader from "./components/Loader";
 import Lenis from "lenis";
 
-const LazyProductContainer = lazy(() =>
-  import("./components/product/ProductContainer")
-);
+const LazyProductContainer = lazy(() => import("./components/product/ProductContainer"));
 const LazyCartContainer = lazy(() => import("./components/cart/CartContainer"));
-const LazyConfirmedOrder = lazy(() =>
-  import("./components/cart/ConfirmedOrder")
-);
+const LazyConfirmedOrder = lazy(() => import("./components/cart/ConfirmedOrder"));
 
 function App() {
   const { orderConfirmationStatus } = useContext(AppContext);

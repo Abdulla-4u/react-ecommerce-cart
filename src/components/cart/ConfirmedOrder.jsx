@@ -17,7 +17,6 @@ const ConfirmedOrder = () => {
     document.body.style.overflow = "hidden";
     return () => document.body.style.overflow = "";
   }, []);
-  console.log(cart);
   return (
     <AnimatePresence>
       <motion.div

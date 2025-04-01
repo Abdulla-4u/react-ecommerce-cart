@@ -1,12 +1,63 @@
-# React + Vite
+# SweetCart - E-commerce Product List with Cart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Overview
 
-## Expanding the ESLint configuration
+SweetCart is a modern and responsive e-commerce product list challenge from **Frontend Mentor**. The project includes a fully functional cart system, providing a seamless shopping experience while showcasing my frontend development skills.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎯 Features
+
+✅ Add items to the cart and remove them ✅ Increase/decrease the quantity of items in the cart ✅ View an **order confirmation modal** when confirming the order ✅ Reset selections when clicking **Start New Order** ✅ Fully **keyboard accessible** navigation ✅ **Responsive design** for all screen sizes ✅ Interactive **hover and focus states**
+
+## 🛠️ Tech Stack
+
+- **React.js** - UI development
+- **Tailwind CSS** - Styling and responsiveness
+- **Framer Motion** - Animations and modal transitions
+- **Lenis** - Smooth scrolling experience
+- **Vercel** - Deployment
+
+## 📂 Project Structure
+
+```
+/src
+  ├── assets/         # Images and icons
+  ├── components/     # Reusable UI components
+  ├── context/        # Global state management
+  ├── App.jsx         # Main application entry
+  ├── main.jsx        # Root render file
+```
+
+## 🔥 Installation & Setup
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/yourusername/sweetcart.git
+   cd sweetcart
+   ```
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+3. **Run the development server:**
+   ```sh
+   npm run dev
+   ```
+4. **Visit the app in your browser:**
+   ```
+   http://localhost:5173
+   ```
+
+## 🌍 Live Demo
+
+🔗 [**SweetCart Live**](https://sweetcart.vercel.app/)
+
+## 📜 License
+
+This project is open-source and free to use under the [MIT License](LICENSE).
+
+---
+
+💡 **Developed by **[**Abdullah Mohammad**](https://github.com/yourusername) 🚀
+

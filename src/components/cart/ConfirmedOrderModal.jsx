@@ -1,10 +1,10 @@
-import React, { memo, useCallback, useContext, useEffect } from "react";
+import React, { memo, useCallback, useContext} from "react";
 import { OrderConfirmIcon } from "../icons/icons";
 import { AppContext } from "../../context/AppContext";
 import TotalPrice from "./TotalPrice";
 import { motion, AnimatePresence } from "framer-motion";
 
-const ConfirmedOrder = () => {
+const ConfirmedOrderModal = () => {
   const { cart, total_Price, confirmOrder, Clear_Cart } = useContext(AppContext);
 
   const handleBackdropClick = useCallback((e) => {
@@ -13,10 +13,6 @@ const ConfirmedOrder = () => {
     }
   }, [confirmOrder]);
 
-  useEffect(() => {
-    document.body.style.overflow = "hidden";
-    return () => document.body.style.overflow = "";
-  }, []);
   return (
     <AnimatePresence>
       <motion.div
@@ -32,7 +28,11 @@ const ConfirmedOrder = () => {
           animate={{ y: 0, opacity: 1, scale: 1 }}
           exit={{ y: 80, opacity: 0, scale: 0.95 }}
           transition={{ duration: 0.35, ease: "easeInOut" }}
-          style={{ scrollbarWidth: "none" }}
+          style={{
+            scrollbarWidth: "none",
+            WebkitOverflowScrolling: "touch",
+          }}
+          data-lenis-prevent="true"
         >
           <div className="sticky top-0 z-10 bg-white pt-1 pb-3">
             <OrderConfirmIcon className="animate-none sm:w-10 w-8" />
@@ -77,7 +77,7 @@ const ConfirmedOrder = () => {
   );
 };
 
-export default memo(ConfirmedOrder);
+export default memo(ConfirmedOrderModal);
 
 const ProductItem = ({ item }) => {
   const { image, name, price, quantity } = item;

@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const ProductContainer = () => {
   return (
     <section className="lg:w-[70%] w-full mx-auto">
-      <h1 className="sm:px-6 px-5 pt-3 sm:pt-5 font-bold sm:text-3xl text-3xl text-rose-950">
+      <h1 className="sm:px-6 px-5 pt-3 sm:pt-5 font-bold sm:text-4xl text-3xl text-rose-950">
         Desserts
       </h1>
 

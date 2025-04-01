@@ -1,4 +1,4 @@
-# SweetCart - E-commerce Product List with Cart
+#   SweetCart - E-commerce Product List with Cart 
 
 
 
@@ -6,17 +6,27 @@
 
 SweetCart is a modern and responsive e-commerce product list challenge from **Frontend Mentor**. The project includes a fully functional cart system, providing a seamless shopping experience while showcasing my frontend development skills.
 
+
 ## 🎯 Features
 
-✅ Add items to the cart and remove them ✅ Increase/decrease the quantity of items in the cart ✅ View an **order confirmation modal** when confirming the order ✅ Reset selections when clicking **Start New Order** ✅ Fully **keyboard accessible** navigation ✅ **Responsive design** for all screen sizes ✅ Interactive **hover and focus states**
+✅ Add items to the cart and remove them  
+✅ Increase/decrease the quantity of items in the cart  
+✅ View an **order confirmation modal** when confirming the order  
+✅ Reset selections when clicking **Start New Order**  
+✅ Fully **keyboard accessible** navigation  
+✅ **Responsive design** for all screen sizes  
+✅ Interactive **hover and focus states**  
 
-## 🛠️ Tech Stack
 
-- **React.js** - UI development
-- **Tailwind CSS** - Styling and responsiveness
-- **Framer Motion** - Animations and modal transitions
-- **Lenis** - Smooth scrolling experience
-- **Vercel** - Deployment
+
+## 🛠️ Technologies Used
+
+- **React.js** – Component-based UI for a dynamic experience  
+- **Tailwind CSS** – Modern styling with utility-first approach  
+- **Framer Motion** – Smooth animations and transitions  
+- **Lenis** – Smooth scrolling for an enhanced user experience  
+
+
 
 ## 📂 Project Structure
 
@@ -53,11 +63,14 @@ SweetCart is a modern and responsive e-commerce product list challenge from **Fr
 
 🔗 [**SweetCart Live**](https://sweetcart.vercel.app/)
 
-## 📜 License
 
-This project is open-source and free to use under the [MIT License](LICENSE).
+
+## 🤝 Connect with Me
+
+👋 Hi, I'm **Abdullah Mohammad**! I'm a **frontend web developer** who is passionate about building visually appealing and user-friendly web experiences.
+
+📧 Email: [abdullahmollah311@gmail.com](mailto:abdullahmollah311@gmail.com)  
 
 ---
 
-💡 **Developed by **[**Abdullah Mohammad**](https://github.com/yourusername) 🚀
-
+**If you like this project, consider giving it a ⭐ on GitHub!** 😊

@@ -13,7 +13,6 @@ SweetCart is a modern and responsive e-commerce product list challenge from **Fr
 ✅ Increase/decrease the quantity of items in the cart  
 ✅ View an **order confirmation modal** when confirming the order  
 ✅ Reset selections when clicking **Start New Order**  
-✅ Fully **keyboard accessible** navigation  
 ✅ **Responsive design** for all screen sizes  
 ✅ Interactive **hover and focus states**  
 
